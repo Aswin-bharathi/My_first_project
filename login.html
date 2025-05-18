@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Login Form</h1>
+        <label>Usename</label>
+        <input type ='text' placeholder="Enter Your Username" id="name" required>
+        <label>Passoword</label>
+        <input type ='password' placeholder="Enter Your Password" id="pass" required>
+        <button type="submit" onclick="login()">login</button>
+    </div>
+    <script>
+        function login(){
+            var val = document.getElementById('name').value;
+            var v = document.getElementById('pass').value;   
+            if(val.length>8 && v.length>8){
+                window.location ='home.html';
+            }
+            console.log(val);
+            console.log(v);
+        }
+    </script>
+</body>
+</html>
