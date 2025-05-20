@@ -15,3 +15,9 @@ df
 ds
 dsafds
 As
+<<<<<<< Updated upstream
+=======
+adfafdsafdsfadfadfdsafasdfadf
+adfafdsafdsfadfadfdsafasdfadfd
+adfafdsafdsfadfadfdsafasdf
+>>>>>>> Stashed changes
